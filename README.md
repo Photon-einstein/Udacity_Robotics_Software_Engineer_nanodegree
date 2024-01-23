@@ -1,7 +1,5 @@
 # Udacity_Robotics_Software_Engineer_nanodegree
 
-Disclaimer: Udacity provided some starter code, but the implementation for these concepts are done by myself. 
-
 ## Summary
 This course aims to educate more about localization and navigation principles pertaining to autonomous robots, 
 using a commonly used platform called Robot Operating System (ROS). It covers topics ranging from Gazebo simulation, 
