@@ -11,7 +11,7 @@ Localization & Mapping (SLAM) and A* Path Planning.
 All of these techniques culminates into a final project where a home service robot capable of localization and navigation 
 is developed. Instructions for compiling each project is available on each project's directory.
 
-## Note: These projects are developed in Ubuntu 16.04, ROS Kinetic and Gazebo 7.16.1. Please clone the master branch for 
+**Note**: These projects are developed in Ubuntu 16.04, ROS Kinetic and Gazebo 7.16.1. Please clone the master branch for 
 latest version of all projects. 
 
 ## Gazebo World Segment
