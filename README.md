@@ -15,7 +15,8 @@ is developed. Instructions for compiling each project is available on each proje
 latest version of all projects. 
 
 ## Gazebo World Segment
-Gazebo is a useful simulation tool that can be used with ROS to render robots in a simulated environment. It comes with a model and world editor, along with presets models, that can allow for quick prototyping of a physical environment.
+Gazebo is a useful simulation tool that can be used with ROS to render robots in a simulated environment. 
+It comes with a model and world editor, along with presets models, that can allow for quick prototyping of a physical environment.
 
 The main principles taught in this segment are:
 
@@ -26,4 +27,5 @@ The main principles taught in this segment are:
 The output of the word created in gazebo is shown bellow, where a office was buided using models in the gazebo library, some 
 utilities were added from the library into the office and two robots were build in Gazebo, using the model capabilities of the 
 that program.
+
 ![1-Gazebo_word_program_running](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/assets/31144077/da5a7709-314e-4232-a2c4-efb8d68067c3)
