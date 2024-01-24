@@ -1,5 +1,4 @@
 # Project 1: Build-My-World
-Project 1 of Udacity Robotics Software Engineer Nanodegree Program
 
 ![1-Gazebo_word_program_running](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/assets/31144077/80cd5b8f-9baa-4628-9165-6354202965a8)
 
@@ -37,20 +36,17 @@ Directory Structure
 ```
 .Build-My-World                    # Build My World Project 
 ├── model                          # Model files 
-│   ├── floor
+│   ├── Building
 │   │   ├── model.config
 │   │   ├── model.sdf
-│   ├── rb
+│   ├── Robot
 │   │   ├── model.config
 │   │   ├── model.sdf
 ├── script                         # Gazebo World plugin C++ script      
 │   ├── welcome.cpp
 ├── world                          # Gazebo main World containing models 
-│   ├── office.world
+│   ├── myWorld
 ├── CMakeLists.txt                 # Link libraries 
-└── pic 
-│   │   ├── screenshot.png
-│   │   ├── floorplan.png
 ```
 - [office.world](/world/office.world): Gazebo world file.  
 - [floor](/model/floor): Floor structure built by Building Editor of Gazebo.  
