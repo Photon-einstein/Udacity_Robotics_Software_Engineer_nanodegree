@@ -48,11 +48,11 @@ Directory Structure
 │   ├── myWorld
 ├── CMakeLists.txt                 # Link libraries 
 ```
-- [office.world](/world/office.world): Gazebo world file.  
-- [floor](/model/floor): Floor structure built by Building Editor of Gazebo.  
-- [robot](/model/rb): A robot built by Model Editor of Gazebo.  
-- [welcome.cpp](/script/welcome.cpp): Gazebo world plugin C++ script.  
-- [CMakeLists.txt](CMakeLists.txt): File to link the C++ code to libraries.  
+- [myWorld](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/blob/main/1-Gazebo_project/world/myWorld): Gazebo world file.  
+- [Building](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/tree/main/1-Gazebo_project/model/Building): Building built using the editor of Gazebo.  
+- [robot](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/tree/main/1-Gazebo_project/model/Robot): A robot built by Model Editor of Gazebo.  
+- [welcome.cpp](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/tree/main/1-Gazebo_project/script): Gazebo world plugin C++ script.  
+- [CMakeLists.txt](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/blob/main/1-Gazebo_project/CMakeLists.txt): File to link the C++ code to libraries.  
 ## Run the project  
 * Clone this repository
 * At the top level of the project repository, create a build directory:  
