@@ -65,12 +65,12 @@ cmake .. && make
 ```
 * Export your plugin folder in the terminal so your world file can find it:  
 ```bash
-export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/P1-Build-My-World/build
+export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/1-Gazebo_project/build
 ```
 * Launch the world file in Gazebo to load both the world and plugin  
 ```bash
-cd /home/workspace/P1-Build-My-World/world/
-gazebo office.world
+cd /home/workspace/1-Gazebo_project/world/
+gazebo myWorld
 ```
 
 ## Tips  
