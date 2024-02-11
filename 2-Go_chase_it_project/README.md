@@ -67,14 +67,14 @@ Directory Structure
 │   ├── model.sdf
 
 ```
-- [drive_bot.cpp](/catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with linear and angular movements.  
-- [process_images.cpp](/catkin_ws/src/ball_chaser/src/process_images.cpp): ROS service C++ script, process the camera image and return requested movements.   
-- [robot_description.launch](/catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world. 
-- [myWorld.world](/catkin_ws/src/my_robot/worlds/myWorld.world): Gazebo world file that includes the models.  
-- [CMakeLists.txt](/catkin_ws/src/my_robot/CMakeLists.txt): File to link the C++ code to libraries.  
-- [hokuyo.dae](/catkin_ws/src/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
-- [my_robot.gazebo](/catkin_ws/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
-- [my_robot.xacro](/catkin_ws/src/my_robot/urdf/my_robot.xacro): Define my_robot URDF model.  
+- [drive_bot.cpp](./catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with linear and angular movements.  
+- [process_images.cpp](./catkin_ws/src/ball_chaser/src/process_images.cpp): ROS service C++ script, process the camera image and return requested movements.   
+- [robot_description.launch](./catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world. 
+- [myWorld.world](./catkin_ws/src/my_robot/worlds/myWorld.world): Gazebo world file that includes the models.  
+- [CMakeLists.txt](./catkin_ws/src/my_robot/CMakeLists.txt): File to link the C++ code to libraries.  
+- [hokuyo.dae](./catkin_ws/src/my_robot/meshes/hokuyo.dae): Hokuyo LiDAR sensor mesh model.  
+- [my_robot.gazebo](./catkin_ws/src/my_robot/urdf/my_robot.gazebo): Define my_robot URDF model plugins.  
+- [my_robot.xacro](./catkin_ws/src/my_robot/urdf/my_robot.xacro): Define my_robot URDF model.  
 
 ## Run the project  
 * Clone this repository
