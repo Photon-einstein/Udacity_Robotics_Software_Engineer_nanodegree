@@ -62,9 +62,6 @@ Directory Structure
 │   │   │   │   ├── myWorld.world
 │   │   │   ├── CMakeLists.txt                 # compiler instructions
 │   │   │   ├── package.xml                    # package info
-├── my_ball                                    # Model files 
-│   ├── model.config
-│   ├── model.sdf
 
 ```
 - [drive_bot.cpp](./catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with linear and angular movements.  
