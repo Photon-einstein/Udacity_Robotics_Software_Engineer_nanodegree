@@ -68,7 +68,7 @@ Directory Structure
 
 ```
 - [drive_bot.cpp](./catkin_ws/src/ball_chaser/src/drive_bot.cpp): ROS service C++ script, command the robot with linear and angular movements.  
-- [process_images.cpp](./catkin_ws/src/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested movements.   
+- [process_image.cpp](./catkin_ws/src/ball_chaser/src/process_image.cpp): ROS service C++ script, process the camera image and return requested movements.   
 - [robot_description.launch](./catkin_ws/src/my_robot/launch/robot_description.launch): Create robot model in Gazebo world. 
 - [myWorld.world](./catkin_ws/src/my_robot/worlds/myWorld.world): Gazebo world file that includes the models.  
 - [CMakeLists.txt](./catkin_ws/src/my_robot/CMakeLists.txt): File to link the C++ code to libraries.  
