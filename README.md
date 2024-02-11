@@ -27,3 +27,21 @@ utilities were added from the library into the office and two robots were build 
 that program.
 
 ![1-Gazebo_word_program_running](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/assets/31144077/da5a7709-314e-4232-a2c4-efb8d68067c3)
+
+## ROS segment
+
+The Robot Operating System (ROS) serves as middleware intended for facilitating communication among various components of robots, 
+alongside providing commonly utilized packages for robotic applications. Within this project, diverse communication models were 
+utilized across different nodes of the robot to enable it to navigate towards a white ball upon detection.
+
+At a higher level, the 2D camera node continually assesses the presence of the white ball and its orientation relative to the robot's 
+trajectory. Should a white ball be detected, a service is invoked to instruct the drive node to maneuver towards the ball with 
+designated linear and angular velocities. The drive node, upon receiving this service call, disseminates the motion directives to the 
+wheel actuation node, enabling the robot's movement.
+
+The primary concepts emphasized in this section encompass:
+1. Utilization of Packages & Catkin Workspaces
+2. Development of ROS nodes & communication models (Publisher-Subscriber, Service-Client)
+
+![2-Go_chase_it_program_running](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/assets/31144077/0c8939dd-e18f-4f93-93df-3cafb77c92e1)
+
