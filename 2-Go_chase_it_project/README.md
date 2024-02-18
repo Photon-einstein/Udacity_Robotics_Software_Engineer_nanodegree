@@ -82,6 +82,7 @@ catkin_make
 ```
 * Launch my_robot in Gazebo to load both the world and plugins  
 ```
+source devel/setup.bash
 roslaunch my_robot world.launch
 ```   
 * Launch ball_chaser and process_image nodes  
