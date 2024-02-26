@@ -17,7 +17,7 @@ The crux of this segment elucidates the following algorithms:
 ##Setup
 Use the following commands to build the project:
 
-1. Navigate to catkin workspace root directory: cd catkin/
+1. Navigate to catkin workspace root directory: '''cd catkin/'''
 2. Compile Catkin Workspace: catkin_make
 3. Launch Robot in world: source devel/setup.bash && roslaunch my_robot world.launch
 4. Launch AMCL package (new tab): source devel/setup.bash && roslaunch my_robot amcl.launch
