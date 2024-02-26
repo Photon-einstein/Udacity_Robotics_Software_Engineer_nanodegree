@@ -12,7 +12,7 @@ is developed. Instructions for compiling each project is available on each proje
 **Note**: These projects are developed in Ubuntu 16.04, ROS Kinetic and Gazebo 7.16.1. Please clone the master branch for 
 latest version of all projects. 
 
-## Gazebo World Segment
+## 1 - Gazebo World Segment
 Gazebo is a useful simulation tool that can be used with ROS to render robots in a simulated environment. 
 It comes with a model and world editor, along with presets models, that can allow for quick prototyping of a physical environment.
 
@@ -28,7 +28,7 @@ that program.
 
 ![1-Gazebo_word_program_running](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/assets/31144077/da5a7709-314e-4232-a2c4-efb8d68067c3)
 
-## ROS segment
+## 2- ROS segment
 
 The Robot Operating System (ROS) serves as middleware intended for facilitating communication among various components of robots, 
 alongside providing commonly utilized packages for robotic applications. Within this project, diverse communication models were 
@@ -44,4 +44,18 @@ The primary concepts emphasized in this section encompass:
 2. Development of ROS nodes & communication models (Publisher-Subscriber, Service-Client)
 
 ![2-Go_chase_it_program_running](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/assets/31144077/0c8939dd-e18f-4f93-93df-3cafb77c92e1)
+
+## 3 - Localization segment
+In the realm of localization, two prevailing principles reign: the Extended Kalman Filter (EKF) and Monte Carlo Localization (Particle Filter). 
+Armed with a map of its surroundings, along with data from its sensors and motor controls, the robot can employ either of these doctrines to 
+gauge its positional state. For this endeavor, I harnessed the prowess of the Adaptive Monte Carlo Package from ROS. Initially, the robot initializes 
+with a mapped terrain, with particles of uniform probability scattered haphazardly around its vicinity (depicted as verdant arrows). 
+As the robot traverses, so do the particles. Each particle is then appraised with a likelihood measure, signifying its probable position and orientation, 
+gauged by laser distance readings and the distances between its own position and landmarks on the map. The more substantial the likelihood, 
+the greater the chance a particle will endure the resampling phase. Following multiple iterations of movement, one can discern the convergence of the 
+green arrows towards the true location of the robot, an emblem of precise localization.
+
+The crux of this segment elucidates the following algorithms:
+- Extended Kalman Filter
+- Adaptive Monte Carlo Localization (Particle Filter)
 
