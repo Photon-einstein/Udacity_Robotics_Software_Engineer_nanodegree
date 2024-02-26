@@ -59,3 +59,4 @@ The crux of this segment elucidates the following algorithms:
 - Extended Kalman Filter
 - Adaptive Monte Carlo Localization (Particle Filter)
 
+![3-Where_am_I_program _running](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/assets/31144077/9be35363-3a0e-400b-8abe-685ed4e86920)
