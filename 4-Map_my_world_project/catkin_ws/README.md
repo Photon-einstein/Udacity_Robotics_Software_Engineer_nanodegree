@@ -26,8 +26,6 @@ The main principles taught in this segment are:
 3) GraphSLAM
 4) RTAB-map SLAM (Variant of GraphSLAM)
 
-<img src="../../../media/RTAB_map_SLAM_simulation.gif" width="900" height="400" />
-
 ## Setup 
 Use the following commands to build the project: 
 
