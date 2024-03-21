@@ -26,7 +26,7 @@ The output of the word created in gazebo is shown bellow, where a office was bui
 utilities were added from the library into the office and two robots were build in Gazebo, using the model capabilities of the 
 that program.
 
-![1-Gazebo_word_program_running](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/assets/31144077/da5a7709-314e-4232-a2c4-efb8d68067c3)
+<img src="0-Media/1-Gazebo_word_program_running.gif" width="900" height="400" />
 
 ## 2- ROS segment
 
@@ -43,7 +43,7 @@ The primary concepts emphasized in this section encompass:
 1. Utilization of Packages & Catkin Workspaces
 2. Development of ROS nodes & communication models (Publisher-Subscriber, Service-Client)
 
-![2-Go_chase_it_program_running](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/assets/31144077/0c8939dd-e18f-4f93-93df-3cafb77c92e1)
+<img src="0-Media/2-Go_chase_it_program_running.gif" width="900" height="400" />
 
 ## 3 - Localization segment
 In the realm of localization, two prevailing principles reign: the Extended Kalman Filter (EKF) and Monte Carlo Localization (Particle Filter). 
@@ -59,7 +59,7 @@ The crux of this segment elucidates the following algorithms:
 - Extended Kalman Filter
 - Adaptive Monte Carlo Localization (Particle Filter)
 
-![3-Where_am_I_program _running](https://github.com/Photon-einstein/Udacity_Robotics_Software_Engineer_nanodegree/assets/31144077/9be35363-3a0e-400b-8abe-685ed4e86920)
+<img src="0-Media/3-Where_am_I_program _running.gif" width="900" height="400" />
 
 ## 4 - Mapping & SLAM Segment
 
