@@ -89,3 +89,4 @@ The main principles taught in this segment are:
 3) GraphSLAM
 4) RTAB-map SLAM (Variant of GraphSLAM)
 
+<img src="0-Media/4-Map_my_world_program_running.gif" width="900" height="400" />
