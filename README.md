@@ -116,4 +116,4 @@ of picking up and dropping off objects.
 
 ## Certificate of completion
 
-https://graduation.udacity.com/confirm.udacity.com/e/34f1619c-b56d-11ee-b87d-0ffadf83d1d5
+[https://graduation.udacity.com/confirm.udacity.com/e/34f1619c-b56d-11ee-b87d-0ffadf83d1d5](https://www.udacity.com/certificate/e/34f1619c-b56d-11ee-b87d-0ffadf83d1d5)
