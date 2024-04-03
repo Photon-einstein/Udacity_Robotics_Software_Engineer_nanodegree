@@ -16,7 +16,7 @@ int main(int argc, char** argv){
   ros::init(argc, argv, "pick_objects");
 
   //tell the action client that we want to spin a thread by default
-  MoveBaseClient ac("move_base", true), ac2("move_base", true);
+  MoveBaseClient ac("move_base", true);
 
   // Wait 5 sec for move_base action server to come up
   while(!ac.waitForServer(ros::Duration(5.0))){
@@ -54,20 +54,20 @@ int main(int argc, char** argv){
 
   	// Define a position and orientation for the robot to reach
 	pickUp.target_pose.pose.position.x = dropOff_x;
-  	pickUp.target_pose.pose.position.y = dropOff_y;
+  pickUp.target_pose.pose.position.y = dropOff_y;
  	
 	// Send the goal position and orientation for the robot to reach
  	ROS_INFO("Sending drop off goal with x= %.2f and y= %.2f", pickUp.target_pose.pose.position.x, pickUp.target_pose.pose.position.y);
- 	ac2.sendGoal(pickUp);
+ 	ac.sendGoal(pickUp);
 
 	// Wait an infinite time for the results
-  	ac2.waitForResult();
+  ac2.waitForResult();
 
-  	// Check if the robot reached its drop off position
-  	if(ac2.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
-    		ROS_INFO("Robot reached his drop off position");
-  	else
-    		ROS_INFO("The base failed to reach the drop off position");
+  // Check if the robot reached its drop off position
+  if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
+      ROS_INFO("Robot reached his drop off position");
+  else
+      ROS_INFO("The base failed to reach the drop off position");
   
   }
   // Wait a few seconds before the terminal window disappears
