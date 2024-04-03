@@ -113,3 +113,7 @@ down the configuration space and plan paths.
 of picking up and dropping off objects.
 
 <img src="0-Media/5-Home_service_robot_program_running.gif" width="900" height="400" />
+
+## Certificate of completion
+
+https://graduation.udacity.com/confirm.udacity.com/e/34f1619c-b56d-11ee-b87d-0ffadf83d1d5
